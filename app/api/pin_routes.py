@@ -45,6 +45,7 @@ def create_new_pin():
     return jsonify({"errors": form.errors}), 400
 
 
+
 # Edit an existing pin
 @pin_routes.route('/edit/<int:id>', methods=['PATCH'])
 @login_required
