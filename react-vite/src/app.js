@@ -2,7 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import Login from './pages/Login';
 import Signup from './pages/Signup';
-import Explore from './pages/Explore';
+import Explore from '../react-vite/src/pages/Explore';
 import PinDetails from './pages/PinDetails';
 import Profile from './pages/Profile';
 import CreatePin from './pages/CreatePin';
@@ -10,7 +10,7 @@ import Board from './pages/Board';
 import Settings from './pages/Settings';
 import NotFound from './pages/NotFound';
 import ProtectedRoute from './components/ProtectedRoute';
-import WikiPage from './pages/WikiPage';
+import WikiPage from '../react-vite/src/pages/WikiPage';
 
 function App() {
   return (
